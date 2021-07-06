@@ -8,10 +8,7 @@ class MyCart extends Component {
                 <div class="ui cards">
                     <div class="ui card centered">
                         <div class="content">
-                            <img
-                                src="/images/phone.jpg"
-                                class="ui mini right floated image"
-                            />
+                            {/* Aqui viene la imagen */}
                             <div class="header">Test_Phone</div>
                             <div class="meta">$ 80</div>
                             <div class="meta">12 minutes</div>

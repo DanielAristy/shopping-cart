@@ -1,32 +1,32 @@
 let phones = {
     Techno: {
         brand: "Techno",
-        inCart: "false", // o "in"
+        inCart: 'false' // or "in"
     },
     Apple: {
         brand: "Iphone",
-        inCart: "false",
+        inCart: "false"
     },
     Samsung: {
         brand: "Samsung",
-        inCart: "false",
+        inCart: "false"
     },
     Hauwei: {
         brand: "Hauwei",
-        inCart: "true",
+        inCart: "true"
     },
     HTC: {
         brand: "HTC",
-        inCart: "true",
-    },
-};
+        inCart: "true"
+    }
+}
 
-//Se establecen unas promesas para traer informacion posteriormente.
 export function _getPhones() {
     return new Promise((res, rej) => {
         setTimeout(() => res({ ...phones }), 1000);
     });
 }
+
 export function setInCart({ id, inCart }) {
     return new Promise((res, rej) => {
         setTimeout(() => {
